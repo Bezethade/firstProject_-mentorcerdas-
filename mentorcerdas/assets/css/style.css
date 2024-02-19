@@ -108,7 +108,6 @@ footer .img {
 /* hp */
 @media (max-width: 576px) {
   body {
-    overflow-y: visible !important;
     overflow-x: hidden !important;
   }
 
@@ -216,6 +215,10 @@ footer .img {
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 992px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
   .mentor .skil {
     padding-bottom: 42px !important;
   }
@@ -314,6 +317,9 @@ footer .img {
 
 /* dekstop/laptop */
 @media (min-width: 1200px) {
+  body {
+    overflow-x: hidden !important;
+  }
 
   .mentor .skil {
     padding-bottom: 23px !important;
